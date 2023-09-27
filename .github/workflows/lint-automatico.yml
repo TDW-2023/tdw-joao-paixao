@@ -1,6 +1,6 @@
 name: Pipeline para merge requests
 run-name: ${{ github.actor }} está a verificar o código 🤓
-on: [pull_request]
+on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
